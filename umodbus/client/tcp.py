@@ -82,7 +82,7 @@ bytes after the Length field is 6 bytes. These 6 bytes are Unit Identifier (1
 byte) + PDU (5 bytes).
 
 """
-import struct
+import ustruct
 from random import randint
 
 from umodbus.functions import (create_function_from_response_pdu,
